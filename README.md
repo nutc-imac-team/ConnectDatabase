@@ -28,11 +28,11 @@
 
 ##程式碼說明
 
-* [讓使用者輸入要連接的是MySQL或者是MSSQL](##讓使用者輸入要連接的是MySQL或者是MSSQL)
+* 讓使用者輸入要連接的是MySQL或者是MSSQL
 
-* [不一樣的資料庫連接要載入不一樣的驅動](##不一樣的資料庫連接要載入不一樣的驅動)
+* 不一樣的資料庫連接要載入不一樣的驅動
 
-* [讓使用者輸入IP、PORT、資料庫名稱、資料表名稱、帳號、密碼](##讓使用者輸入IP、PORT、資料庫名稱、資料表名稱、帳號、密碼)
+* 讓使用者輸入IP、PORT、資料庫名稱、資料表名稱、帳號、密碼
 
 
 ```
@@ -78,8 +78,7 @@ con = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 ```
 
 
-* [可以讓使用者呼叫的方法但是是沒有回傳值的，如:INSERT、DELETE](##可以讓使用者呼叫的方法但是是沒有回傳值的，如:INSERT、DELETE)
-
+* 可以讓使用者呼叫的方法但是是沒有回傳值的，如:INSERT、DELETE
 
 ```
 public void setNoResponseQuery(String query) {
@@ -93,7 +92,7 @@ public void setNoResponseQuery(String query) {
 ```
 
 
-* [可以讓使用者呼叫的方法但是是有回傳值的，如:SELECT](##可以讓使用者呼叫的方法但是是有回傳值的，如:SELECT)
+* 可以讓使用者呼叫的方法但是是有回傳值的，如:SELECT
 
 
 ```
@@ -107,7 +106,7 @@ public void setResponseQuery(String query) {
   }
 ```
 
-* [設定與資料庫段開連線](##設定與資料庫段開連線)
+* 設定與資料庫段開連線
 
 
 ```
